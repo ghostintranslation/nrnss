@@ -287,7 +287,7 @@ tr:nth-child(even) {
     <li>
       <span class="toc-title">4. Troubleshooting</span>
       <span class="toc-dots"></span>
-      <span class="toc-page-num">6</span>
+      <span class="toc-page-num">7</span>
     </li>
   </ul>
   <!-- Page footer with page number 2 -->
@@ -349,19 +349,31 @@ tr:nth-child(even) {
   <!-- Section 3: Controls and CV Inputs -->
   <h1>3. How it works</h1>
 
-  <p>NRNSS has 16 DC-coupled inputs, meaning that they accept both CV and audio signals.
-When unpatched, they’re normalled (internally connected) to 0V.</p>
+  <p>NRNSS has 16 DC-coupled inputs, meaning that they accept both CV and audio signals. When unpatched, they’re normalled (internally connected) to 0V.</p>
 
   <p>The left column is made of 9 mono inputs and the right column has the 2 outputs, top and bottom, as well as 7 stereo TRS inputs in between.</p>
 
-  <p>On the left, the closest a mono input is to an output, the greater its influence on it, either audio getting louder or CV getting more or less attenuated. The inputs are scaled with 3 dB between one another, meaning that between each input there is a gain difference that feels linear to the human ear.<p>
+  <p>On the left, the closest a mono input is to an output, the greater its influence on it, either audio getting louder or CV getting more or less attenuated. The inputs are scaled with 3 dB between one another, meaning that between each input there is a gain difference that feels linear to the human ear.</p>
 
   <p>On the right, from top to bottom the stereo inputs have increasing attenuation, also scaled with 3 dB bettween on another. This allows to mix in loud and quiet sources and make them sound equally loud in the final mix.</p>
+
   
   <!-- Page footer with page number 5 -->
   <div class="page-footer">
     <span>NRNSS User Manual</span>
     <span>Page 5</span>
+  </div>
+</div>
+
+<div class="page-body">
+
+  <!-- Signal routing and panel layout diagram -->
+  <img src="./nrnss_manual_diagram.svg" alt="NRNSS Signal Routing and Panel Layout Diagram" style="display: block; margin: 0 auto; height: 100%;" />
+  
+  <!-- Page footer with page number 5 -->
+  <div class="page-footer">
+    <span>NRNSS User Manual</span>
+    <span>Page 6</span>
   </div>
 </div>
 
@@ -379,6 +391,6 @@ When unpatched, they’re normalled (internally connected) to 0V.</p>
   <!-- Page footer with page number 12 -->
   <div class="page-footer">
     <span>NRNSS User Manual</span>
-    <span>Page 6</span>
+    <span>Page 7</span>
   </div>
 </div>
